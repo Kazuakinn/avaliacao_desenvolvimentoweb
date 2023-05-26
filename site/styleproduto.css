@@ -1,0 +1,97 @@
+.kwland{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 20%;
+    font-size: 60px;
+    color: pink;
+}
+body{
+margin:  0 auto;
+padding: 0;
+box-sizing: border-box;
+background: #f0dcec;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    background: pink;
+
+}
+#menu li{
+display: inline;
+padding: 30px;
+}
+
+#menu li a {
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: rgb(160, 20, 43);
+}
+
+/* galaria oragnizada com suas classes */
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+  }
+  
+  .item {
+    position: relative;
+    flex: 1;
+    margin: 1px;
+  }
+  
+  .item img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .price {
+    
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(151, 151, 245);
+    background-color: rgb(253,253,150);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #span:hover{
+    color: rebeccapurple;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+
+
+
+
+#img{
+  cursor: pointer;
+  padding: 10px;
+  width: 1000%;
+}
+
+
+
+
+
+/* rodapé */
+  footer{
+    padding:30px;
+    background: rgb(249,194,194);
+  }
